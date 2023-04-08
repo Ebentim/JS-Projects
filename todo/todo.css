@@ -72,17 +72,62 @@ button{
 
 main{
     margin-top: 4px;
-    height: auto;
-    width: auto;
+    height:auto;
+    width: 300px;
     background-color: #f0f8ff;
     box-shadow: 5px 8px 15px  #000000d3;
-    padding: 25px;
     display: none;
 }
-.list_container{
-    background-color: rgb(158, 122, 122);
-    margin-top: 10px;
-    justify-content: center;
-    font-family: cursive;
-    font-size: 16px;
+.textrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 5px;
+}
+.eachCounts{
+    border-radius: 5px;
+    background-color: #523131b6;
+    margin-right: 5px;
+}
+.myTextList{
+    color: red;
+    padding: 0 10px;
+}
+
+
+
+/* media queries */
+/* tab */
+
+@media (max-width: 960px) {
+    body{
+        font-size: 20px;
+    }
+    header{
+        width:100%;
+        margin: 0;
+    }
+    span{
+        display: none;
+    }
+    .headgear{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+        font-family: cursive;
+    }
+    .myTextList{
+        margin-left: 0;
+    }
+    .input_main{
+        width: 100%;
+    }
 }
