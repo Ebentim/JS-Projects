@@ -64,6 +64,5 @@ plus.addEventListener("click", () => {
     main.style.display = "block"
     del.addEventListener("click", () =>{
         deltextDiv = main.removeChild(textDiv);
-        counter -=1            
-        });
+    });
 });
