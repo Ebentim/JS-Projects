@@ -4,11 +4,14 @@
     font-weight: bold;
 }    
 body{
-    background: linear-gradient(to right, #b223c5, #c52367, #dfd21c, #df8b1c);
+    background-color: #0b9eca;
     
 }
 main{
     width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 input{
     width: 100%;
@@ -43,4 +46,10 @@ div{
 }
 .clear{
     grid-column: 4/5;
+}
+@media (max-width: 960px) {
+    main{
+        margin: 0;
+    }
+    
 }
