@@ -1,0 +1,46 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}    
+body{
+    background: linear-gradient(to right, #b223c5, #c52367, #dfd21c, #df8b1c);
+    
+}
+main{
+    width: 400px;
+}
+input{
+    width: 100%;
+    height: 75px;
+    text-align:right;
+    color: #000000;
+}
+div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 "auto");
+    grid-template-rows: repeat(4 "auto");
+    
+}
+.operators, .numbers{
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2px;
+}
+.lpar, .seven, .four, .one, .zero{
+    margin-left: 0;
+    grid-column: 1/2;
+}
+.rpar{
+    grid-column: 2/3;
+}
+.percent{
+    grid-column: 3/4;
+}
+.clear{
+    grid-column: 4/5;
+}
